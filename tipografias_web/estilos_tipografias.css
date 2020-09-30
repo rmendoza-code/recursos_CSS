@@ -1,0 +1,17 @@
+@font-face{
+  font-family: Lato-Light;
+  src:url(fuentes/Lato-Light.ttf);
+}
+
+h1{ 
+  font-family: Georgia, serif;
+  font-size: 2em;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+p{
+  font-family: 'Modak',cursive;
+  font-size: 1.2em;
+  font-style: italic;
+}

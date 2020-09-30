@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable:no">
+  <title>Imagenes Adaptativas</title>
+</head>
+
+<body>
+  <!--La etiqueta <figure> debe agregarse para que nuestro código cumpla con la regla semantica, todas la imagenes que coloquemos dentro de esta etiqueta tendran un diseño adaptativo -->
+  <figure>
+    <!--Con <figcaption> le daremos un título o pie de foto a la imagen-->
+    <figcaption>Imagen de bicicleta de la marca Audi</figcaption>
+    <img src="https://i.ytimg.com/vi/QfZwaAdZLjc/maxresdefault.jpg" alt="bicleta" width="50%">
+  </figure>
+
+  <!--Para que el navegador coloque la imagen correcta segun el tamaño de la pantalla del dispositivo debemos ocupar la etiqueta <picture>-->
+  <picture>
+    <figcaption>Bicicleta de ruta</figcaption>
+    <source media="(min-width: 768px)"
+      srcset="https://images-na.ssl-images-amazon.com/images/I/91Gs-Br1JpL._AC_SX425_.jpg" width="80%">
+
+    <figcaption>Bicicleta de niña</figcaption>
+    <source media="(min-width:480px)"
+      srcset="https://i.pinimg.com/originals/ed/1c/ee/ed1ceed1572abff0047ce9dc06297c26.jpg" width="80%">
+
+    <figcaption>Bicicleta Electrica</figcaption>
+    <img src="https://www.bikeon.com.mx/wp-content/uploads/2020/05/bicicleta-electrica-modelo-rino-1.jpg"
+      alt="bici-electrica" width="80%"></img>
+  </picture>
+
+
+
+</body>
+
+</html>

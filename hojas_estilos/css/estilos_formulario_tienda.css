@@ -1,0 +1,16 @@
+body{
+    margin: 20px;
+    font-family: Verdanada;
+}
+#area_comentarios{
+    width: 200px;
+}
+#email{
+    background-color: #eeeeee;
+}
+.edad{
+    color:red;
+}
+p label{
+    font-family: Tahoma;
+}

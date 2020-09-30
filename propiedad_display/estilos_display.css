@@ -1,0 +1,17 @@
+h1 {
+    background-color: #F1F3C3;
+    //height: 150px;
+    width: 400px;
+    display:none;
+    opacity: 0.8;
+}
+
+h2 {
+    background-color: #00293C;
+    display: inline;
+    color: white;
+}
+
+p {
+    display: inline;
+}

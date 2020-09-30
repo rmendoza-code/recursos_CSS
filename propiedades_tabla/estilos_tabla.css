@@ -1,0 +1,29 @@
+table{
+  width: 50%;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+table, th, td{
+  border: 1px solid black;  
+}
+
+th, td{
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+/* Filas impares */
+tr:nth-child(odd){
+  background-color: blueviolet;
+
+}
+
+/* Filas pares */
+tr:nth-child(even){
+  background-color: brown;
+
+}
+

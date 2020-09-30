@@ -1,0 +1,65 @@
+body {
+  font-size: 3em;
+  font-family: 'Lucida Sans';
+}
+
+div [class*="bloque"] {
+  min-height: 200px;
+  flex-basis: 40%;
+  //flex: 1 2 40%; 
+}
+
+.bloque1 {
+  color: #ddd;
+  background-color: #FF0000;
+  order: 3;
+}
+
+.bloque2 {
+  color: #333;
+  background-color: #00FF99;
+  order: 5;
+  /* flex-grow: 1  ; */
+}
+
+.bloque3 {
+  color: #333;
+  background-color: #00FFFF;
+  order: 1;
+  /* flex-grow: 3; */
+}
+
+.bloque4 {
+  color: #333;
+  background-color: #FFFF00;
+  order: 7;
+  /* flex-grow: 5; */
+}
+
+.bloque5 {
+  color: #ddd;
+  background-color: #000000;
+  order: 2;
+  /* flex-grow: 2; */
+}
+
+.bloque6 {
+  color: #333;
+  background-color: #0Fd000;
+  order: 4;
+  /* flex-grow: 2; */
+}
+
+.bloque7 {
+  color: #ddd;
+  background-color: #0000F0;
+  order: 6;
+  /* flex-grow: 1; */
+}
+
+.contenedor {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  flex-flow: row wrap;
+}
